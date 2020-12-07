@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2aQ+Fc4+GpZRmrHZoF30GxZA3FQRLKvKCFFMPbV01HM33t5waZvmTMjmsLU4qL5tcUZNicy2lCw+NxlPrGY5bw==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\projetos\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
