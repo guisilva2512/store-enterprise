@@ -1,6 +1,5 @@
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.csprojAssemblyReference.cache
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.AssemblyInfoInputs.cache
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.AssemblyInfo.cs
@@ -18,3 +17,4 @@ C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netc
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.dll
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.pdb
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.genruntimeconfig.cache
+C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\NSE.Catalogo.API.styles.css
