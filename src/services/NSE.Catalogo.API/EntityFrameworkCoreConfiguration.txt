@@ -1,0 +1,177 @@
+﻿------ Instalar Pacotes
+<PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.11" />
+<PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="3.1.11" />
+<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.11">
+    <PrivateAssets>all</PrivateAssets>
+    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+</PackageReference>
+<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.11" />
+<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.11" />
+
+------ Criando Context Pt1
+
+public class CatalogoContext : DbContext
+{
+    public CatalogoContext(DbContextOptions<CatalogoContext> options) : base(options)
+    {
+    }
+
+    public DbSet<Produto> Produto { get; set; }
+}
+
+----- Mapeando a entidade produto
+- Nova classe
+
+public class ProdutoMapping : IEntityTypeConfiguration<Produto>
+{
+    public void Configure(EntityTypeBuilder<Produto> builder)
+    {
+        builder.HasKey(c => c.Id);
+
+        builder.Property(c => c.Nome)
+            .IsRequired()
+            .HasColumnType("varchar(250)");
+
+        builder.Property(c => c.Descricao)
+            .IsRequired()
+            .HasColumnType("varchar(500)");
+
+        builder.Property(c => c.Imagem)
+            .IsRequired()
+            .HasColumnType("varchar(250)");
+
+        builder.ToTable("Produtos");
+    }
+}
+
+- Context
+
+protected override void OnModelCreating(ModelBuilder modelBuilder)
+{
+    foreach (var property in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetProperties().Where(p => p.ClrType == typeof(string))))
+    {
+        property.SetColumnType("varchar(100)");
+    }
+
+    modelBuilder.ApplyConfigurationsFromAssembly(typeof(CatalogoContext).Assembly);
+}
+
+-------- setar connection string no appsettings.json
+"ConnectionStrings": {
+    "DefaultConnectionString": "Data Source=localhost\\SQLEXPRESS;Initial Catalog=NerdStoreEnterprise;Integrated Security=True"
+  },
+
+------- registrar contexto na startup
+
+public void ConfigureServices(IServiceCollection services)
+{
+    services.AddDbContext<CatalogoContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionString")));
+
+    services.AddControllers();
+}
+
+--- Add-Migration
+Add-Migration InitialCatalogo
+
+-- Update-Database
+Update-Database
+
+-------- Criando repositorio genérico
+
+public interface IRepository<T> : IDisposable where T : IAggregateRoot
+{
+        
+}
+
+public interface IAggregateRoot { }
+
+------------- Criando interface de produto repository
+
+public interface IProdutoRepository : IRepository<Produto>
+{
+    Task<IEnumerable<Produto>> ObterTodos();
+    Task<Produto> ObterPorId();
+
+    void Adicionar(Produto produto);
+    void Atualizar(Produto produto);
+}
+
+----------- Criando a classe produto repository
+public class ProdutoRepository : IProdutoRepository
+{
+    private readonly CatalogoContext _context;
+
+    public ProdutoRepository(CatalogoContext context)
+    {
+        _context = context;
+    }
+
+    public async Task<Produto> ObterPorId(Guid id)
+    {
+        return await _context.Produto.FindAsync(id);
+    }
+
+    public async Task<IEnumerable<Produto>> ObterTodos()
+    {
+        return await _context.Produto.AsNoTracking().ToListAsync();
+    }
+
+    public void Adicionar(Produto produto)
+    {
+        _context.Produto.Add(produto);
+    }
+
+    public void Atualizar(Produto produto)
+    {
+        _context.Produto.Update(produto);
+    }
+
+    public void Dispose()
+    {
+        _context?.Dispose();
+    }
+}
+
+---- Criando interface IUnitOfWork
+
+public interface IUnitOfWork
+    {
+        Task<bool> Commit();
+    }
+
+  
+--------- Implementado IunitOfWorkd no contexto
+
+public class CatalogoContext : DbContext, IUnitOfWork
+{
+    public CatalogoContext(DbContextOptions<CatalogoContext> options) : base(options)
+    {
+    }
+
+    public DbSet<Produto> Produto { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        foreach (var property in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetProperties().Where(p => p.ClrType == typeof(string))))
+        {
+            property.SetColumnType("varchar(100)");
+        }
+
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(CatalogoContext).Assembly);
+    }
+
+    public async Task<bool> Commit()
+    {
+        return await base.SaveChangesAsync() > 0;
+    }
+}
+
+------ Adicionar no repository a propriedade do iunitofwork
+
+public IUnitOfWork UnitOfWork => _context;
+
+------- registrar nosso produto repository na startup
+services.AddScoped<IProdutoRepository, IProdutoRepository>();
+
+
+--------
