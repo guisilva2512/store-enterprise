@@ -1,0 +1,9 @@
+C:\Dev\projetos\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\bin\Debug\netcoreapp3.1\NSE.WebApi.Core.deps.json
+C:\Dev\projetos\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\bin\Debug\netcoreapp3.1\NSE.WebApi.Core.dll
+C:\Dev\projetos\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\bin\Debug\netcoreapp3.1\NSE.WebApi.Core.pdb
+C:\Dev\projetos\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.csprojAssemblyReference.cache
+C:\Dev\projetos\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.AssemblyInfoInputs.cache
+C:\Dev\projetos\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.AssemblyInfo.cs
+C:\Dev\projetos\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.csproj.CoreCompileInputs.cache
+C:\Dev\projetos\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.dll
+C:\Dev\projetos\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.pdb

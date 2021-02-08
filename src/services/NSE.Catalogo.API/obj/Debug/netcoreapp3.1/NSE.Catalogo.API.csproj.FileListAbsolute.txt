@@ -66,3 +66,6 @@ C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netc
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\NSE.WebApi.Core.dll
+C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\NSE.WebApi.Core.pdb

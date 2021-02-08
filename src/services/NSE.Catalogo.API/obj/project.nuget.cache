@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9/TTnG2byd4EaRVTUut9aZTXHPPrB9MDsxQJfkv2fjisdeKuJp7BZn/PUY9bTsmK5oG4a0FUPvkdrzQYVKtAzg==",
+  "dgSpecHash": "JDbeZitOxR+0C2Zt7gUQb+A1i+C/foJsJBBuCH72E9996ZNUrlA/PoQ88mquax2TtT7JbvBhP86DdmizVwxZqw==",
   "success": true,
   "projectFilePath": "C:\\Dev\\projetos\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.3\\microsoft.aspnetcore.authentication.jwtbearer.3.1.3.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
