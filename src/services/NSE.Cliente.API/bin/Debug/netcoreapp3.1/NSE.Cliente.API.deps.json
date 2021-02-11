@@ -25,6 +25,7 @@
       "NSE.Cliente.API/1.0.0": {
         "dependencies": {
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
+          "NSE.Core": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -316,6 +317,14 @@
         }
       },
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.10.9": {},
+      "NSE.Core/1.0.0": {
+        "runtime": {
+          "NSE.Core.dll": {}
+        },
+        "compile": {
+          "NSE.Core.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -2022,6 +2031,11 @@
       "sha512": "sha512-Sug+YeP9YYigFnUdvPCUJjBz7cc2VVR7UBZkIRwPWmVR/HmIM5HbcpX940s4BM3xgL3QHGp3qN7AqkcZ/MjZEw==",
       "path": "microsoft.visualstudio.azure.containers.tools.targets/1.10.9",
       "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+    },
+    "NSE.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",

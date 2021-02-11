@@ -8,6 +8,16 @@
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props": {},
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
         }
+      },
+      "NSE.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/NSE.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NSE.Core.dll": {}
+        }
       }
     }
   },
@@ -75,11 +85,17 @@
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
       ]
+    },
+    "NSE.Core/1.0.0": {
+      "type": "project",
+      "path": "../../building blocks/NSE.Core/NSE.Core.csproj",
+      "msbuildProject": "../../building blocks/NSE.Core/NSE.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9"
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
+      "NSE.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -112,7 +128,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Dev\\projetos\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj": {
+              "projectPath": "C:\\Dev\\projetos\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

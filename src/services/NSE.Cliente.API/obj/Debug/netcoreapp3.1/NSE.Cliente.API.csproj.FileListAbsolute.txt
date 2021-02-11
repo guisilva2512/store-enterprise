@@ -18,3 +18,6 @@ C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Cliente.API\obj\Debug\netco
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Cliente.API\obj\Debug\netcoreapp3.1\NSE.Cliente.API.genruntimeconfig.cache
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Cliente.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\NSE.Cliente.API.styles.css
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Cliente.API\obj\Debug\netcoreapp3.1\NSE.Cliente.API.csprojAssemblyReference.cache
+C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\netcoreapp3.1\NSE.Core.dll
+C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Cliente.API\bin\Debug\netcoreapp3.1\NSE.Core.pdb
+C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Cliente.API\obj\Debug\netcoreapp3.1\NSE.Cliente.API.csproj.CopyComplete
