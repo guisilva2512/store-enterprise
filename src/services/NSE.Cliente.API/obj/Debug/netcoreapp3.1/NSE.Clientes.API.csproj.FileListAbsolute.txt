@@ -1,5 +1,0 @@
-C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Cliente.API\obj\Debug\netcoreapp3.1\NSE.Clientes.API.csprojAssemblyReference.cache
-C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Cliente.API\obj\Debug\netcoreapp3.1\NSE.Clientes.API.AssemblyInfoInputs.cache
-C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Cliente.API\obj\Debug\netcoreapp3.1\NSE.Clientes.API.AssemblyInfo.cs
-C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Cliente.API\obj\Debug\netcoreapp3.1\NSE.Clientes.API.csproj.CoreCompileInputs.cache
-C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Cliente.API\obj\Debug\netcoreapp3.1\NSE.Clientes.API.MvcApplicationPartsAssemblyInfo.cache
