@@ -1,6 +1,5 @@
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Pedido.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Pedido.API\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\netcoreapp3.1\NSE.Pedido.API.csprojAssemblyReference.cache
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\netcoreapp3.1\NSE.Pedido.API.AssemblyInfoInputs.cache
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\netcoreapp3.1\NSE.Pedido.API.AssemblyInfo.cs
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\netcoreapp3.1\NSE.Pedido.API.RazorTargetAssemblyInfo.cache

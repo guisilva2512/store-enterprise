@@ -1,6 +1,5 @@
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.csprojAssemblyReference.cache
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.AssemblyInfoInputs.cache
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.AssemblyInfo.cs
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.RazorTargetAssemblyInfo.cache
@@ -18,3 +17,4 @@ C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\net
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.pdb
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.genruntimeconfig.cache
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\NSE.Pagamento.API.styles.css
+C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.csprojAssemblyReference.cache

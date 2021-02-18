@@ -17,4 +17,3 @@ C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netc
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\NSE.Carrinho.API.pdb
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\NSE.Carrinho.API.genruntimeconfig.cache
 C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\NSE.Carrinho.API.styles.css
-C:\Dev\projetos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\NSE.Carrinho.API.csprojAssemblyReference.cache
