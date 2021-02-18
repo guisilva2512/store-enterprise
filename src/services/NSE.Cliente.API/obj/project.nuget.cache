@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Pb4xY0hGonIWPaIOEr15SELVO9jAXhBNN6QWghRxHK+2W6pA9TH3oLTsJKJjbe5pKdGO+0fqW6NrE5dwRRkEow==",
+  "dgSpecHash": "8Syl8avwByGhmJVrcTBmTzmX+0/r6sS0ufcp0u85ZntnWzlYKXth5s002rLIvYRvm5mNLJEzj+8a+BiWKYN/+A==",
   "success": true,
   "projectFilePath": "C:\\Dev\\projetos\\NerdStoreEnterprise\\src\\services\\NSE.Cliente.API\\NSE.Cliente.API.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Guilherme\\.nuget\\packages\\mediatr\\8.0.0\\mediatr.8.0.0.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.0.0\\mediatr.extensions.microsoft.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.3\\microsoft.aspnetcore.authentication.jwtbearer.3.1.3.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
